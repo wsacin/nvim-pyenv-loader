@@ -1,6 +1,7 @@
 local M = {}
 
 function M.setup(opts)
+	print("something")
 	local opts = opts or {}
 	vim.api.nvim_create_autocmd("BufReadPost", {
 		pattern = "*.py",
