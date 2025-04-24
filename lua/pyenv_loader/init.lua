@@ -38,6 +38,7 @@ function M.setup()
 						},
 					},
 				})
+				require("dap-python").setup(python_path)
 			end
 		end,
 	})
